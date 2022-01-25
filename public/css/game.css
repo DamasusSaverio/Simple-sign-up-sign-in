@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
+
+body,
+html {
+    font-size: 1px;
+    font-family: "Open Sans";
+    background-color: #9C835F !important;
+}
+
+.nav {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-right: 20px;
+    text-decoration: none;
+    background-color: #9C835F;
+}
+
+.nav-back {
+    width: 55px;
+    height: 87px;
+    margin-left: 37px;
+    margin-top: 12px;
+    color: #724C21;
+    font-family: sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.nav-logo {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #F9B23D;
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 10px;
+}
+
+.text-player {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30rem;
+    line-height: 30rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.item {
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100rem !important;
+}
+
+.opsi {
+    height: 100rem;
+    width: 85rem;
+}
+
+.vs {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65rem;
+    line-height: 115rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #BD0000;
+    position: relative;
+    top: -300rem;
+    left: 20vw;
+}
+
+.com-option {
+    position: relative;
+    top: -695rem;
+    left: 40vw;
+}
+
+.refresh {
+    position: relative;
+    top: -725rem;
+    left: 28vw;
+}
+
+.result {
+    transform: rotate(-30deg);
+    border-radius: 10px;
+    background: #4C9654;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -400rem;
+    left: 20vw;
+}
+
+.text-result {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18rem;
+    line-height: 32rem;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

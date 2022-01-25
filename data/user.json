@@ -1,0 +1,32 @@
+[
+    {
+        "id": "e1e6d77b-84ff-4744-90b6-f2e7a0cbcf51",
+        "email": "damasus_saverio@yahoo.co.id",
+        "password": "dada"
+    },
+    {
+        "id": "1ff5ce25-01b1-403c-99c3-ed43fbaa4af4",
+        "email": "damasus@gmail.com",
+        "password": "123"
+    },
+    {
+        "id": "78551950-47b6-4ebd-b756-496e1d9ca6dc",
+        "email": "damasus_saverio@yahoo.co.id",
+        "password": "yahoo"
+    },
+    {
+        "id": "60f5520b-8c7c-4098-b4f5-1a9faeec0df1",
+        "email": "damasus_saverio@yahoo.co.id",
+        "password": "yahoo"
+    },
+    {
+        "id": "a075635a-5304-4a1e-a3cc-1c7289a336ae",
+        "email": "damasus@gmail.com",
+        "password": "dada"
+    },
+    {
+        "id": "16de472a-2d1a-4462-94d2-a747e5f8332c",
+        "email": "astro@gmail.com",
+        "password": "astro"
+    }
+]

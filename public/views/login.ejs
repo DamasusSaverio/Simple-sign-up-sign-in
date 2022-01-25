@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/login.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <title>Sign in</title>
+</head>
+
+<body>
+  <main class="form-signin">
+    <form action="/login" method="post">
+        <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+      <div class="form-floating">
+        <input type="email" class="form-control" name="email" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" name="password" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Password</label>
+      </div>
+
+      <% if (status === 'emailnotfound') { %>
+      <%- include('partial/email-not-found') %>
+      <% } else if (status === 'wrongpassword' ) { %>
+      <%- include('partial/wrong-password') %>
+
+      <% } %>
+      <button class="w-100 btn btn-lg btn-login" type="submit">Login</button>
+
+      <!-- Sebenarnya saya pingin bikin login dan register page yg beda Mas Didi, cuma gagal terus mas, jadi saya sementara pakai punya Mas Didi dulu ya :( -->
+  <!-- <div class="main">
+    <p class="sign" align="center">Sign in</p>
+    <form class="form1" action="/login" method="post">
+      <input class="un " type="text" align="center" placeholder="Email">
+      <input class="pass" type="password" align="center" placeholder="Password">
+      <a class="submit" align="center">Sign in</a>
+      <p class="forgot" align="center"><a href="#">Forgot Password?</p>        
+    </div> -->
+</body>
+</html>

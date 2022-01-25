@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Chapter 4</title>
+    <link rel="stylesheet" href="css/game.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <!-- header -->
+    <nav class="nav">
+        <a class="nav-back text-decoration-none" href="/"><</a>
+        <a class="nav-logo text-decoration-none" href="#"><img src="/assets/logo.png"> Rock Paper Scissor</a>
+    </nav>
+    <section class="container">
+        <div class="container">
+            <div class="col-4 col-md-3" style="height: 500px;">
+                <div class="row d-flex flex-column align-items-center justify-content-evenly" style="height: 100%;">
+                    <!-- Text -->
+                    <div style="height: 10%;">
+                        <h2 class="text-player">PLAYER 1</h2>
+                    </div>
+                    <!-- Batu -->
+                    <div class="item" id="player-batu">
+                        <img src="/assets/batu.png" class="opsi" onclick="chooseBatu()">
+                    </div>
+                    <!-- Kertas -->
+                    <div class="item" id="player-kertas">
+                        <img src="/assets/kertas.png" class="opsi" onclick="chooseKertas()">
+                    </div>
+                    <!-- Gunting -->
+                    <div class="item" id="player-gunting">
+                        <img src="/assets/gunting.png" class="opsi" onclick="chooseGunting()">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4 col-md-3">
+            <!-- VS -->
+            <div class="row d-flex flex-column justify-content-center align-items-center" style="height: 100%;">
+                <p class="vs" id="vs-text">VS</p>
+                <div class="result" id="result-div" style="visibility: hidden;">
+                    <p class="text-result" id="result-p">test</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- COM Option -->
+        <div class="container com-option">
+            <div class="col-4 col-md-3" style="height: 500px;">
+                <div class="row d-flex flex-column align-items-center justify-content-evenly" style="height: 100%;">
+                    <!-- Text -->
+                    <div style="height: 10%;">
+                        <p class="text-player">COM</p>
+                    </div>
+                    <!-- Batu -->
+                    <div class="item" id="com-batu">
+                        <img src="/assets/batu.png" class="opsi">
+                    </div>
+                    <!-- Kertas -->
+                    <div class="item" id="com-kertas">
+                        <img src="/assets/kertas.png" class="opsi">
+                    </div>
+                    <!-- Gunting -->
+                    <div class="item" id="com-gunting">
+                        <img src="/assets/gunting.png" class="opsi">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Refresh button -->
+        <div class="justify-content-center align-items-center refresh">
+            <img src="/assets/refresh.png" class="opsi" onclick="reset()">
+        </div>
+    </section>
+<script src="/js/game.js"></script>
+</body>
+</html>

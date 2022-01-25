@@ -1,0 +1,160 @@
+/* font */
+h1 {
+  font-family: 'Bebas Neue';
+  font-size: 80px;
+  font-weight: bold;
+}
+h2 {
+  font-family: 'Bebas Neue';
+  font-size: 36px;
+  font-weight: bold;
+}
+h3 {
+  font-family: 'Bebas Neue';
+  font-size: 24px;
+  font-weight: bold;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+.sub-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.main-but {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.navText {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/* navbar */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 90px;
+}
+.nav-item {
+  padding-left: 50px;
+  padding-right: 10px;
+}
+/* navbar end */
+
+.bg1{
+  background-image: url(/assets/main-bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  margin-top: -90px;
+  color: white;
+  align-items: center;
+  background-position: center;
+}
+.scroll {
+  color: white;
+  margin-top: -50px;
+  padding: 0;
+}
+.scroll p {
+  margin: 0;
+}
+
+.bg2 {
+  background-image: url(Assets/bg\ image\ 2.jpg);
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  align-items: center;
+  background-position: center;
+}
+/* carousel */
+.carousel {
+  width: 700px;
+}
+.carousel-item {
+  height: 400px;
+}
+/* carousel end */
+
+.bg3 {
+  background-image: url(Assets/bg\ image\ 3.jpg);
+  height: 100vh;
+  background-size: cover;
+  color: white;
+  background-position: center;
+}
+
+.bg3 .row .col-4 {
+  margin-top: 200px;
+}
+.bg3 .row {
+  margin: 0;
+  padding: 0;
+}
+.bg4 {
+  background-image: url(Assets/bg\ image\ 4.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.bg4 .row .col {
+  border: 1px solid grey;
+  padding: 10px;
+}
+.cont-systreq {
+  width: 50%;
+}
+
+.bg5 {
+  background-image: url(Assets/bg\ image\ 5.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.bg5 .container {
+  height: 100vh;
+  color: white;
+  align-items: center;
+}
+
+.bg5 .row {
+  align-items: center;
+}
+
+.card-cmnt {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  width: 300px;
+}
+.card-cmnt .col-3 img {
+  filter: drop-shadow(3px 3px 0 #ffb548);
+}
+
+.bg6 {
+  background-color: black;
+  height: 100vh;
+  color: white;
+}
+.bg6 .container {
+  align-items: center;
+}
+
+.bg6 .col-5 {
+  align-items: center;
+}
+.bg6 h1 {
+  line-height: 4rem;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
